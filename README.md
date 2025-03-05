@@ -11,15 +11,15 @@ make clean
 
 make menuconfig
 
-1.Enable extra low-level configuration options
+1. Enable extra low-level configuration options
 
-2.Set the Bootloader offeset as 28 KiB
+2. Set the Bootloader offeset as 28 KiB
 
-3.Set the “Micro-controller Architecture” as “STMicroelectronics STM32” - Processor model (STM32F103) 
+3. Set the “Micro-controller Architecture” as “STMicroelectronics STM32” - Processor model (STM32F103) 
 
-4.Set the Communication interface as “USART3 PB11/PB10”
+4. Set the Communication interface as “USART3 PB11/PB10”
 
-5.Enter the last option, enter “!PC6, !PD13”, the. Press enter key
+5. Enter the last option, enter “!PC6, !PD13”
 
 make
 
